@@ -1,4 +1,4 @@
-# Setting Up a Local Python Virtual Environment using `venv`
+# Local Python Virtual Environments using `venv`
 
 A virtual environment is an isolated Python environment that allows you to manage project-specific dependencies without interfering with your system's global Python installation. 
 
