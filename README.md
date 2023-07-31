@@ -97,4 +97,5 @@ deactivate
 
 ## Links
 
-- [GitHub Repo](https://github.com/denisecase/datafun-00-python-virtual-env/)
+- [This GitHub Repo](https://github.com/denisecase/datafun-00-python-virtual-env/)
+- [Real Python Primer on Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
