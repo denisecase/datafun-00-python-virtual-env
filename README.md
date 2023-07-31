@@ -47,7 +47,7 @@ source .venv/bin/activate
 
 Verify your terminal prompt changes, indicating that you are now working within your virtual environment.
 
-## Step 3: Install Project Dependencies Indiv
+## Step 3: Install Project Dependencies
 
 With the virtual environment active, you can install the required packages for your project. 
 What you install is specific to your project. 
@@ -70,7 +70,7 @@ python -m pip install pandas
 python -m pip install -r requirements.txt
 ```
 
-## Optional/As Needed: Creating A New requirments.txt File
+## Optional/As Needed: Creating A New Requirements File
 
 If you want to share your project with others or deploy it on a different system, 
 it's a good practice to include the virtual environment details. 
@@ -88,6 +88,15 @@ pip freeze > requirements.txt
 deactivate
 ```
 
+## Summary: Activating a New Local Virtual Environment in PowerShell Core
+
+These two commands create and activate a new virtual environment in PowerShell Core.
+
+```shell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
 ## Recommendations
 
 1. Practice creating, activating, deactivating virtual environments.
@@ -99,3 +108,7 @@ deactivate
 
 - [This GitHub Repo](https://github.com/denisecase/datafun-00-python-virtual-env/)
 - [Real Python Primer on Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
+
+## Screen Shots
+
+![Screenshot: Creating a Virtual Environment](./images/01-create-venv.png)
