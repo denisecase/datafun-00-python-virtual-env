@@ -10,23 +10,24 @@ This guide:
 
 Explore the .venv folder as you create, activate, and install additional Python packages into that folder. 
 
+To learn more about why this process (over many other possibilities), see [WHY.md](./WHY.md). Join the discussion at [discussions](https://github.com/denisecase/datafun-00-python-virtual-env/discussions).
+
 ## Terminals
 
-We type these commands in a terminal. PowerShell Core works well on all operating systems. 
+We type these commands in a terminal. `PowerShell Core` works well on all operating systems. 
 You may also use Terminal (Mac/Linux) or Windows PowerShell or Command Prompt (Windows). 
 The commands have been tested in PowerShell Core. Copy this repo and update as needed for your process. 
 
-
 ## Step 1: Create the Virtual Environment
 
-Open your terminal and navigate to your project directory. Create a new local virtual environment named ".venv" by typing the following command and hitting Enter (or Return):
+Open your terminal and navigate to your project directory. Create a new local virtual environment named `.venv` by typing the following command and hitting Enter (or Return):
 
 ```shell
 python -m venv .venv
 ```
 
-Verify `.venv` is created. You can replace .venv with any name you prefer. 
-I like the leading dot because it keeps environment files away from project code. 
+Verify the sub folder `.venv` is created. You can replace .venv with any name you prefer. 
+We like the leading dot because it keeps environment files away from project code. 
 
 ## Step 2: Activate the Virtual Environment
 
@@ -108,6 +109,7 @@ python -m venv .venv
 
 - [This GitHub Repo](https://github.com/denisecase/datafun-00-python-virtual-env/)
 - [Real Python Primer on Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
+- [Python Engineer on Virtual Environments](https://www.python-engineer.com/posts/virtual-environments-python/)
 
 ## Screen Shots
 
