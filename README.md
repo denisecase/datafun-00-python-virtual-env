@@ -103,13 +103,24 @@ python -m venv .venv
 1. Practice creating, activating, deactivating virtual environments.
 1. Practice installing, uninstalling, and freezing requirements.
 1. Try different approaches. When a course uses `pip`, try pip. When a course uses `conda`, try conda.
-1. Be adaptable. Different teams do things differently, stay open to quickly learning new tools and methods. 
+1. Be adaptable. Different teams do things differently, stay open to quickly learning new tools and methods.
+
+## Virtual Environments and Jupyter Notebooks
+
+- [Using Jupyter Notebook in Virtual Environment](https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/)
+
+Note that the article names their virtual environment `venv` while we use the name `.venv` above. If you use .venv, the command would be:
+
+```shell
+ipython kernel install --user --name=.venv
+```
 
 ## Links
 
 - [This GitHub Repo](https://github.com/denisecase/datafun-00-python-virtual-env/)
 - [Real Python Primer on Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
 - [Python Engineer on Virtual Environments](https://www.python-engineer.com/posts/virtual-environments-python/)
+
 
 ## Screen Shots
 
