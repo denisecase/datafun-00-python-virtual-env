@@ -71,18 +71,6 @@ python -m pip install pandas
 python -m pip install -r requirements.txt
 ```
 
-## Optional/As Needed: Creating A New Requirements File
-
-If you want to share your project with others or deploy it on a different system, 
-it's a good practice to include the virtual environment details. 
-This ensures that anyone working on your project has the same environment and dependencies.
-
-To create a new requirements.txt with the packages in the virtual environment, run the following command:
-
-```shell
-pip freeze > requirements.txt
-```
-
 ## Optional/As Needed: Deactivate the Virtual Environment
 
 ```shell
